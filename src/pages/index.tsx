@@ -3,7 +3,9 @@ import Head from 'next/head';
 export default function Home() {
   return (
     <>
-      <Head>Inicio | ig.news</Head>
+      <Head>
+        <title>Inicio | ig.news</title>
+      </Head>
       <h1><span>React</span></h1>
     </>
   )
